@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleyhoang147/Readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ashleyhoang147/Readme-generator/issues"
+  },
+  "homepage": "https://github.com/ashleyhoang147/Readme-generator#readme"
 }
