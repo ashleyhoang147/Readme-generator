@@ -1,31 +1,32 @@
-var inquirer = require('inquirer');
-inquirer
+const inquirer = require('inquirer');
+const axios = require("axios");
+const fs = require('fs');
+const path = require('path');
+async function main () {
+    console.log('starting');
+    const userResponse = await inquirer
   .prompt([
     /* Pass your questions in here */
-  ])
-  .then(answers => {
-    // Use user feedback for... whatever!!
-  })
-  .catch(error => {
-    if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else when wrong
+    { 
+        type: 'input',
+        message: "What is your project title",
+        name: "title"
+    },
+    {
+        type: 'input',
+        message: "What is the description of the project",
+        name: "description"
+    },
+    {
+        type: 'input',
+        message: "What is the usage information of the project",
+        name: "usage"
+    },
+    {
+        type: 'input',
+        message: "What is your username",
+        name: "username"
     }
-  });
-// array of questions for user
-const questions = [
-
-];
-
-// function to write README file
-function writeToFile(fileName, data) {
+  ]);
+  
 }
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
