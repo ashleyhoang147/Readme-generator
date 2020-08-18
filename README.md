@@ -56,4 +56,6 @@ What is the username of the user?
 
 After inputing all the questions, user waits for the app to generate a Readme based on the information provided. 
 
-Demonstrations: ![demo video](assets/Demo.mp4)
+Demonstrations: ![demo video](assets/Demo1.gif)
+![demo video](assets/Demo2.gif)
+
